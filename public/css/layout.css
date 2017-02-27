@@ -23,15 +23,6 @@
 /* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
-
-.box-up{
-   border: 3px solid #009A9D;
-   padding: 10px;
-   margin: 10px;
-   font-size:16px;
-   display: inline-block;
-}
-
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -264,6 +255,7 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 3px solid #009A9D;
    padding-bottom: 6px;
 }
+
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
@@ -271,11 +263,12 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .skills, .projects, .futureprojects, .interests {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #F7A436;
 }
+
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
@@ -289,6 +282,40 @@ ul#nav li.current a { color: #F06000; }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+.box-u-underline-color3{
+   border-bottom: 3px solid #f8fc0a;
+   padding-bottom: 6px;
+}
+
+.box-u-underline-color2{
+   border-bottom: 3px solid #F0A979;
+   padding-bottom: 6px;
+}
+
+.box-u-underline-color1{
+   border-bottom: 3px solid #704F50;
+   padding-bottom: 6px;
+}
+
+.box-up-color3{
+  border: 3px solid #f8fc0a;
+}
+
+.box-up-color2{
+  border: 3px solid #F0A979;
+}
+
+.box-up-color1{
+  border: 3px solid #704F50;
+}
+
+.box-up{
+   padding: 10px;
+   margin: 10px;
+   font-size:16px;
+   display: inline-block;
 }
 
 /*----------------------------------------------*/

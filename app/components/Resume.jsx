@@ -31,9 +31,35 @@ var Resume = React.createClass({
           );
         });
 
+        var projects = this.props.data.projects.map(function(projects){
+          return (
+            <div key={projects.name} className="row item">
+               <div className="twelve columns">
+                  <h3>{projects.name}</h3>
+                  <p className="info"><em className="date">{projects.date}</em></p>
+                  <p>
+                    {projects.description}
+                  </p>
+               </div>
+            </div>
+          );
+        });
+
         var skills = this.props.data.skills.map(function(skills){
           return (
-            <li className="box-up">{skills.name}</li>
+            <li className="box-up box-up-color1">{skills.name}</li>
+          );
+        });
+
+        var interests = this.props.data.interests.map(function(interests){
+          return (
+            <li className="box-up box-up-color2">{interests.name}</li>
+          );
+        });
+
+        var futureprojects = this.props.data.futureprojects.map(function(futureprojects){
+          return (
+            <li className="box-up box-up-color3">{futureprojects.name}</li>
           );
         });
       }
@@ -60,13 +86,40 @@ var Resume = React.createClass({
            </div>
         </div>
 
-        <div className="row skill">
+        <div className="row projects">
            <div className="three columns header-col">
-              <h1><span>Skills</span></h1>
+              <h1><span>Projects</span></h1>
+           </div>
+           <div className="nine columns main-col">
+            {projects}
+          </div>
+        </div>
+
+        <div className="row skills">
+           <div className="three columns header-col">
+              <h1 className="box-u-underline-color1">Skills</h1>
            </div>
            <div className="nine columns main-col">
             {skills}
   			  </div>
+        </div>
+
+        <div className="row interests">
+           <div className="three columns header-col">
+              <h1 className="box-u-underline-color2">Interests</h1>
+           </div>
+           <div className="nine columns main-col">
+            {interests}
+          </div>
+        </div>
+
+        <div className="row futureprojects">
+           <div className="three columns header-col">
+              <h1 className="box-u-underline-color3">Future Projects</h1>
+           </div>
+           <div className="nine columns main-col">
+            {futureprojects}
+          </div>
         </div>
      </section>
     );
