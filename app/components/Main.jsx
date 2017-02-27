@@ -10,13 +10,13 @@ var Testimonials = require('Testimonials');
 var Main = (props) => {
   return(
     <div>
+      <Header/>
       <About/>
+      <Resume/>
+      <Portfolio/>
+      <Testimonials/>
       <Contact/>
       <Footer/>
-      <Header/>
-      <Portfolio/>
-      <Resume/>
-      <Testimonials/>
     </div>
   );
 }

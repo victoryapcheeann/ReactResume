@@ -1,6 +1,6 @@
 Victor Resume (Live on web)
 
-<a href = "http://enigmatic-springs-86226.herokuapp.com/#/?_k=0ue2u6">React Weather App</a> -
+<a href = "http://enigmatic-springs-86226.herokuapp.com/#/?_k=0ue2u6">Victor Resume</a> -
   Click to open it!.
 
   <p>As this web is hosted on the free version of Heroku, it will sleep after 30 mins of inactivity.</p>
