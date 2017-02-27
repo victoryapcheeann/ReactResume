@@ -9,24 +9,9 @@ var Main = React.createClass({
   getInitialState: function() {
    return {
      foo: 'foo',
-     resumeData: {}
+     resumeData: resumeData
    }
  },
-
-  getResumeData: function(){
-    $.ajax({
-      url:'http://localhost:3000/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  },
 
   componentDidMount: function(){
     this.getResumeData();
