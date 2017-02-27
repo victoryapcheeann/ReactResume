@@ -31,7 +31,7 @@ var Header = React.createClass({
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">I am {name}</h1>
-               <h3>I am {city} based {occupation} {description} </h3>
+               <h3>{occupation} <br /> {description} </h3>
                <hr />
                <ul className="social">
                 {network}

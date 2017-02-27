@@ -24,6 +24,14 @@
 
 body { background: #0f0f0f; }
 
+.box-up{
+   border: 3px solid #009A9D;
+   padding: 10px;
+   margin: 10px;
+   font-size:16px;
+   display: inline-block;
+}
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -253,7 +261,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #0843F4;
+   border-bottom: 3px solid #009A9D;
    padding-bottom: 6px;
 }
 #resume h3 {

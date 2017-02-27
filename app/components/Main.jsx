@@ -8,7 +8,6 @@ var resumeData = require('json!public/resumeData.json');
 var Main = React.createClass({
   getInitialState: function() {
    return {
-     foo: 'foo',
      resumeData: resumeData
    }
  },
@@ -22,7 +21,7 @@ var Main = React.createClass({
       <div>
         <Header data = {this.state.resumeData.main}/>
         <About data = {this.state.resumeData.main}/>
-        <Resume data = {this.state.resumeData.main}/>
+        <Resume data = {this.state.resumeData.resume}/>
         <Footer/>
       </div>
     );
