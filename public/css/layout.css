@@ -216,10 +216,12 @@ ul#nav li.current a { color: #F06000; }
    width: 58.33333%;
    padding-top: 6px;
 }
+#about .col-margin-left { margin-left: 200px }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
-   margin-top: 6px;
+   margin-top: 90px;
    background: #444;
+   margin-left: 200px;
 }
 #about .download .button:hover {
    background: #fff;
@@ -630,7 +632,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -654,7 +656,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -1003,4 +1005,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
