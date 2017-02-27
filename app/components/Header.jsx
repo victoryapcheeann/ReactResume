@@ -2,6 +2,16 @@ var React = require('react');
 
 var Header = React.createClass({
   render:function(){
+    if(this.props.data) {
+        var name = this.props.data.name;
+        var occupation = this.props.data.occupation;
+        var description = this.props.data.description;
+        var city = this.props.data.address.city;
+        var network = this.props.data.social.map(function(network){
+            return <li key = {network.name}><a href={network.url}><i className={network.className}></i></a></li>
+        });
+    }
+
     return (
       <header id="home">
 
@@ -20,15 +30,11 @@ var Header = React.createClass({
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">Im Jonathan Doe.</h1>
-               <h3>Im a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-               effective visual identities for companies of all sizes around the globe. Lets <a className="smoothscroll" href="#about">start scrolling</a>
-               and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+               <h1 className="responsive-headline">I am {name}</h1>
+               <h3>I am {city} based {occupation} {description} </h3>
                <hr />
                <ul className="social">
-                  <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                  <li><a href="#"><i className="fa fa-github"></i></a></li>
+                {network}
                </ul>
             </div>
          </div>

@@ -2,6 +2,16 @@ var React = require('react');
 
 var About = React.createClass({
   render:function(){
+    if(this.props.data) {
+        var name = this.props.data.name;
+        var bio = this.props.data.bio;
+        var street = this.props.data.address.street;
+        var city = this.props.data.address.city;
+        var phone = this.props.data.phone;
+        var email = this.props.data.email;
+        var resumedownload = this.props.data.resumedownload;
+    }
+
     return (
       <section id="about">
 
@@ -10,13 +20,7 @@ var About = React.createClass({
 
                   <h2>About Me</h2>
 
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                  voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                  sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                  Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
-                  </p>
+                  <p>{bio}</p>
 
                   <div className="row">
 
@@ -24,19 +28,19 @@ var About = React.createClass({
 
                         <h2>Contact Details</h2>
                         <p className="address">
-      						   <span>Jonathan Doe</span><br />
-      						   <span>1600 Amphitheatre Parkway<br />
-      						         Mountain View, CA 94043 US
+      						   <span>{name}</span><br />
+      						   <span>{street}<br />
+      						         {city}
                          </span><br />
-      						   <span>(123)456-7890</span><br />
-                           <span>anyone@website.com</span>
+                       <span>{phone}</span><br />
+                           <span>{email}</span>
       					   </p>
 
                      </div>
 
                      <div className="columns download">
                         <p>
-                           <a href="#" className="button"><i className="fa fa-download"></i>Download Resume</a>
+                           <a href={resumedownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
                         </p>
                      </div>
 
