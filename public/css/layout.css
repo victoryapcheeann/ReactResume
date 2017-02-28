@@ -263,7 +263,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work, .skills, .projects, .futureprojects, .interests {
+.education, .work, .skills, .projects, .futureprojects, .interests, .others {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #F7A436;
@@ -318,6 +318,19 @@ ul#nav li.current a { color: #F06000; }
    display: inline-block;
 }
 
+.details-format{
+  padding: 3px;
+  margin: 3px;
+  font-size:12px;
+}
+
+.details-format2{
+  font-size:12px;
+}
+
+.spacing-bottom {
+  margin-bottom: 30px;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/

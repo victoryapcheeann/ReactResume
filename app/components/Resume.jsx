@@ -3,15 +3,14 @@ var React = require('react');
 var Resume = React.createClass({
   render:function(){
       if(this.props.data){
+
         var education = this.props.data.education.map(function(education){
           return (
             <div key={education.school} className="row item">
                <div className="twelve columns">
                   <h3>{education.school}</h3>
                   <p className="info">{education.degree} <span>&bull;</span> <em className="date">{education.graduated}</em></p>
-                  <p>
-                    {education.description}
-                  </p>
+                  <p>{education.description}</p>
                </div>
             </div>
           );
@@ -23,9 +22,12 @@ var Resume = React.createClass({
                <div className="twelve columns">
                   <h3>{work.company}</h3>
                   <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-                  <p>
-                  {work.description}
-                  </p>
+                  <p>{work.description}</p>
+                  <ul>
+                    <li className = "details-format">{work.workdetail1}</li>
+                    <li className = "details-format">{work.workdetail2}</li>
+                    <li className = "details-format">{work.workdetail3}</li>
+                  </ul>
                </div>
             </div>
           );
@@ -36,10 +38,9 @@ var Resume = React.createClass({
             <div key={projects.name} className="row item">
                <div className="twelve columns">
                   <h3>{projects.name}</h3>
-                  <p className="info"><em className="date">{projects.date}</em></p>
-                  <p>
-                    {projects.description}
-                  </p>
+                  <span className="info"><em className="date">{projects.date}</em></span>
+                  <div>{projects.description}</div>
+                  <div className = "details-format2 spacing-bottom">{projects.function}</div>
                </div>
             </div>
           );
@@ -60,6 +61,22 @@ var Resume = React.createClass({
         var futureprojects = this.props.data.futureprojects.map(function(futureprojects){
           return (
             <li className="box-up box-up-color3">{futureprojects.name}</li>
+          );
+        });
+
+        var others = this.props.data.others.map(function(others){
+          return (
+            <div key={others.title} className="row item">
+               <div className="twelve columns">
+                 <h3>{others.title}</h3>
+                  <div>{others.description}</div>
+                    <ul>
+                      <li className = "details-format">{others.othersdetail1}</li>
+                      <li className = "details-format">{others.othersdetail2}</li>
+                      <li className = "details-format">{others.othersdetail3}</li>
+                    </ul>
+               </div>
+            </div>
           );
         });
       }
@@ -119,6 +136,15 @@ var Resume = React.createClass({
            </div>
            <div className="nine columns main-col">
             {futureprojects}
+          </div>
+        </div>
+
+        <div className="row others">
+           <div className="three columns header-col">
+              <h1><span>Others</span></h1>
+           </div>
+           <div className="nine columns main-col">
+            {others}
           </div>
         </div>
      </section>

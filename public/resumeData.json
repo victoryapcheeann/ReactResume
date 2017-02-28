@@ -1,34 +1,26 @@
 {
   "main": {
     "name":"Victor Yap",
-    "occupation":"Full Stack Developer based in Singapore",
+    "occupation":"Based in Singapore, learning to be a full Stack developer",
     "description":"I enjoy creating websites and moblie apps. I am also comfortable with backend database such as SQL Server",
     "image":"profilepic.jpg",
-    "bio":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+    "bio":"I was first introduced to web and mobile development by a friend in 2015 and I became fascinated by the potential of technology. Soon after, I decided to delve head-first into web development by attending NUS ISS’s course where the instructors and community helped me cultivate a strong foundation and supplement my knowledge.",
     "email": "victoryapcheeann@gmail.com",
     "phone": "90025405",
     "address":{
       "street":"Marsiling Drive",
-      "city":"Singapore",
-      "state":"MA",
-      "zip": "20293"
+      "city":"Singapore"
     },
-    "website": "http://www.techguywebsolutions.com",
-    "resumedownload":"http://something.com",
+    "resumedownload":"https://drive.google.com/open?id=1ujzk32d4OoxRpOaqF_QpPFthKYe2hKfb5_AXPLR8mgc",
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com",
+        "url":"https://www.facebook.com/chee.ann.14",
         "className":"fa fa-facebook"
       },
       {
-        "name":"linkedin",
-        "url":"http://linkedin.com",
-        "className":"fa fa-linkedin"
-      },
-      {
         "name":"github",
-        "url":"http://github.com",
+        "url":"https://github.com/victoryapcheeann",
         "className":"fa fa-github"
       }
     ]
@@ -36,64 +28,101 @@
   "resume":{
     "education":[
       {
-        "school":"University of Tech",
-        "degree":"Master in Graphic Design",
-        "graduated":"April 2007",
-        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium."
+        "school":"National University of Singapore",
+        "degree":"Post-Graduate Diploma in System Analysis (SA42)",
+        "graduated":"2016 - Present",
+        "description":"The Graduate Diploma in Systems Analysis programme (GDipSA) is designed for non-IT graduates intending to craft a new career path in the IT industry."
       },
       {
-        "school":"School of Cool Designers",
-        "degree":"B.A. Degree in Graphic Design",
-        "graduated":"March 2003",
-        "description":"This is Photoshops version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat"
+        "school":"University at Buffalo",
+        "degree":"B.A. Degree in Business Administration",
+        "graduated":"2012 - 2015",
+        "description":"Major: Business Administration, Concentration: Financial Analysis"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX Designer ",
-        "years":"March 2010 - Present",
-        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"UX Designer",
-        "years":"March 2007 - February 2010",
-        "description":"This is Photoshops version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat"
+        "company":"Island Peak Tech",
+        "title":"Software Developer Internship",
+        "years":"Oct 2016 - Mar 2017",
+        "description":"InHi Travel is a mobile app that provides customers with latest and accurate travel information about Singapore. My primary job responsibility is to develop the back-end to support the iOS app.",
+        "workdetail1":"Help user to save time by plotting the shortest route for the list of destination they are going using Google API",
+        "workdetail2":"After user searched for the attraction, they can easily purchase the ticket for the attraction via the app. The tickets are obtained from a 3rd party API known as GlobalTix.",
+        "workdetail3":"Upon buying the ticket they can easily make their payment via WePay, a popular payment platform in China"
       }
     ],
     "projects":[
       {
-        "name":"University of Tech",
-        "date":"April 2007",
-        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium."
+        "name":"Victor Resume",
+        "date":"Feb 2017",
+        "description":"Designed and developed my resume on the website using ReactJS, HTML and CSS.",
+        "function":"Find out more about me on my website!"
       },
       {
-        "name":"School of Cool Designers",
-        "date":"March 2003",
-        "description":"This is Photoshops version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat"
+        "name":"React Weather Web",
+        "date":"Feb 2017",
+        "description":"Designed and developed a weather application using ReactJS and OpenWeatherMap API",
+        "function":"Enable to users to search for temperature of a location."
+      },
+      {
+        "name":"iOS App",
+        "date":"Jul 2016",
+        "description":"Designed and developed a Flickr application using XCode and SQLite",
+        "function":"Enable to users to search for Flickr photos on the application, Save the photos in a favorite list along with the comments, Update or delete the photos/comments in the favorite list"
+      },
+      {
+        "name":"Android App",
+        "date":"Jun 2016",
+        "description":"Designed and developed a tour agency management system using Android Studio and WCF",
+        "function":"Managing tourist information, Display tour route on Google Map using Google Map API"
+      },
+      {
+        "name":"Club Application Booking System",
+        "date":"May 2016",
+        "description":"Designed and developed a club application booking system using Spring MVC and MySQL",
+        "function":"Booking of facilities, Maintenance of members, admin and booking information"
+      },
+      {
+        "name":"Library Management System",
+        "date":"Mar 2016",
+        "description":"Designed and developed a book management system using Visual C# and SQL Server 2012",
+        "function":"Maintenance of member and book information, Creation of reports, Support business transactions (Borrowing and lending)"
       }
     ],
     "skills":[
-      {"name":"Photoshop"},
-      {"name":"Photoshop"},
-      {"name":"Photoshop"},
-      {"name":"Photoshop"},
-      {"name":"jQuery"}
+      {"name":"C#"},
+      {"name":"Java"},
+      {"name":"HTML"},
+      {"name":"CSS"},
+      {"name":"Swift"},
+      {"name":"SQL Server"},
+      {"name":"ReactJS (Currently learning)"},
+      {"name":"React Native (Currently learning)"}
     ],
     "interests":[
-      {"name":"interests"},
-      {"name":"Photoshop"},
-      {"name":"Photoshop"},
-      {"name":"Photoshop"},
-      {"name":"jQuery"}
+      {"name":"Mobile Development"},
+      {"name":"Web Development"},
+      {"name":"VR AR Game Development"},
+      {"name":"Augmented Reality"},
+      {"name":"jQuery"},
+      {"name":"Data Visualization"},
+      {"name":"IOT - Arduino"}
     ],
     "futureprojects":[
-      {"name":"futureprojects"},
-      {"name":"Photoshop"},
-      {"name":"Photoshop"},
-      {"name":"Photoshop"},
-      {"name":"jQuery"}
+      {"name":"Instagram / Tinder Clone (Mobile)"},
+      {"name":"Uber Price Check (Web)"},
+      {"name":"Spotify (Web)"},
+      {"name":"Unity & Unreal Game Engine Projects"},
+      {"name":"Data Visualization(Using D3.js)"}
+    ],
+    "others":[
+      {
+        "title":"Leadership, NUS-ISS Class Representative (SA42)",
+        "description":"Act as a liaison between the students and the lecturers. Ensure that my classmates are properly represented and completely informed.",
+        "othersdetail1":"Informing my classmate(China, India, Myanmar..) the latest update and news",
+        "othersdetail2":"Organize & host a game section for SA42 and SA43, allow the juniors and senior to know more about each other.",
+        "othersdetail3":"Organize & host a BBQ session for SA42, allow students from SA42 to discuss learn about their internship experiences."
+      }
     ]
   }
 }
