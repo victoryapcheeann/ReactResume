@@ -11,6 +11,8 @@ var Footer = React.createClass({
 
                <ul className="copyright">
                   <li>Done by Victor Yap 2017</li>
+               </ul>
+
             </div>
 
             <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
