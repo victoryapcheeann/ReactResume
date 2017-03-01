@@ -94,7 +94,6 @@
       {"name":"Java"},
       {"name":"HTML"},
       {"name":"CSS"},
-      {"name":"Swift"},
       {"name":"SQL Server"},
       {"name":"ReactJS (Currently learning)"},
       {"name":"React Native (Currently learning)"}
@@ -103,14 +102,9 @@
       {"name":"Mobile Development"},
       {"name":"Web Development"},
       {"name":"VR AR Game Development"},
-      {"name":"Augmented Reality"},
-      {"name":"jQuery"},
-      {"name":"Data Visualization"},
       {"name":"IOT - Arduino"}
     ],
     "futureprojects":[
-      {"name":"Instagram / Tinder Clone (Mobile)"},
-      {"name":"Uber Price Check (Web)"},
       {"name":"Spotify (Web)"},
       {"name":"Unity & Unreal Game Engine Projects"},
       {"name":"Data Visualization(Using D3.js)"}
