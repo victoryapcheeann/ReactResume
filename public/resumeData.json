@@ -22,6 +22,11 @@
         "name":"github",
         "url":"https://github.com/victoryapcheeann",
         "className":"fa fa-github"
+      },
+      {
+        "name":"youtube",
+        "url":"https://www.youtube.com/channel/UCUUIr_a8B4ZyXGdyo06zj6g",
+        "className":"fa fa-youtube"
       }
     ]
   },
@@ -52,6 +57,12 @@
       }
     ],
     "projects":[
+      {
+        "name":"To Do Mobile App",
+        "date":"Mar 2017",
+        "description":"Designed and developed a To Do App using react native.",
+        "function":"Create, Complete and delete tasks; Used AsyncStorage to store the data in the phone!"
+      },
       {
         "name":"Victor Resume",
         "date":"Feb 2017",
@@ -94,8 +105,9 @@
       {"name":"Java"},
       {"name":"HTML"},
       {"name":"CSS"},
-      {"name":"SQL Server"},
-      {"name":"ReactJS & Native (Currently learning)"}
+      {"name":"Javascript"},
+      {"name":"Transact-SQL (SQL Server)"},
+      {"name":"ReactJS & React Native (Currently learning)"}
     ],
     "interests":[
       {"name":"Mobile Development"},
@@ -104,9 +116,10 @@
       {"name":"IOT - Arduino"}
     ],
     "futureprojects":[
-      {"name":"Spotify Web App"},
-      {"name":"Unity & Unreal Game Engine Projects"},
-      {"name":"Data Visualization(Using D3.js)"}
+      {"name":"React Native & Redux"},
+      {"name":"Virtual Reality"},
+      {"name":"Data Visualization"},
+      {"name":"Unreal Game Engine"}
     ],
     "others":[
       {
