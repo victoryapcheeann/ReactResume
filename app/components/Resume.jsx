@@ -64,11 +64,29 @@ var Resume = React.createClass({
           );
         });
 
+        var accomplishment = this.props.data.accomplishment.map(function(accomplishment){
+          return (
+            <div key={accomplishment.title} className="row item">
+               <div className="twelve columns">
+                  <h3>{accomplishment.title}</h3>
+                  <span className="info"><em className="date">{accomplishment.date}</em></span>
+                  <p>{accomplishment.description}</p>
+                  <ul>
+                    <li className = "details-format">{accomplishment.detail1}</li>
+                    <li className = "details-format">{accomplishment.detail2}</li>
+                    <li className = "details-format">{accomplishment.detail3}</li>
+                  </ul>
+               </div>
+            </div>
+          );
+        });
+
         var others = this.props.data.others.map(function(others){
           return (
             <div key={others.title} className="row item">
                <div className="twelve columns">
                  <h3>{others.title}</h3>
+                  <span className="info"><em className="date">{others.date}</em></span>
                   <div>{others.description}</div>
                     <ul>
                       <li className = "details-format">{others.othersdetail1}</li>
@@ -136,6 +154,15 @@ var Resume = React.createClass({
            </div>
            <div className="nine columns main-col">
             {futureprojects}
+          </div>
+        </div>
+
+        <div className="row accomplishment">
+           <div className="three columns header-col">
+              <h1><span>Accomplishment</span></h1>
+           </div>
+           <div className="nine columns main-col">
+            {accomplishment}
           </div>
         </div>
 

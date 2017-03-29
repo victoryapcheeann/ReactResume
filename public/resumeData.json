@@ -130,9 +130,28 @@
       {"name":"Data Visualization"},
       {"name":"Unreal Game Engine"}
     ],
+    "accomplishment":[
+      {
+        "title":"Native Sun Competition (University at Buffalo)",
+        "date":"2014",
+        "description":"Operation and Production Case Study: You are an Associate Producer for Convex Productions, a feature film production company. Executive Producer has just purchased the rights to film a script entitled Native Sun , and needs you to draw up an approximate filming schedule. You have a total of 73 tasks to coordinate into a rough-cut filming plan for the project Native Sun",
+        "detail1":"One issue of importance in project scheduling is precedence relationships between tasks. Precedence relationships dictate which tasks in a project absolutely must be finished before some other task can be started.",
+        "detail2":"Each film scene has different location, duration, actor, precedence relationships and cost",
+        "detail3":"Compete with over 500 students and won the 1st place in the following categories: Feasible Schedule that completes this project in the Least Amount of Time, Feasible Schedule that requires the Least Amount of Money, Feasible Schedule that requires the Least Amount of Money Including a $75,000 per Day of Schedule Overhead Charge"
+      },
+      {
+        "title":"Fine Wine Rack Competition (University at Buffalo)",
+        "date":"2014",
+        "description":"Operation and Production Case Study: As Production Manager of the Fine Wine Rack Co., you supervise a small factory that builds custom bottle storage systems.",
+        "detail1":"You currently have four crew members staffing the factory: Juan Vasquez (senior employee and master carpenter), Debbie Bates, Mike Parker (the son of your boss, Ben Parker), and Stan (The Man) Reeves. Your job as Production Manager is to schedule the activities of these four employees, as well as keep them supplied with whatever materials they may need.",
+        "detail2":"Each job has different rack, supplies and schedule",
+        "detail3":"Compete with over 500 students and won the 1st place in the following categories: Highest Profit Schedule that completes this project"
+      }
+    ],
     "others":[
       {
         "title":"Leadership, NUS-ISS Class Representative (SA42)",
+        "date":"2016",
         "description":"Act as a liaison between the students and the lecturers. Ensure that my classmates are properly represented and completely informed.",
         "othersdetail1":"Informing my classmate(China, India, Myanmar..) the latest update and news",
         "othersdetail2":"Organize & host a game section for SA42 and SA43, allow the juniors and senior to know more about each other.",
