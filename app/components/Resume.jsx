@@ -4,18 +4,6 @@ var Resume = React.createClass({
   render:function(){
       if(this.props.data){
 
-        var education = this.props.data.education.map(function(education){
-          return (
-            <div key={education.school} className="row item">
-               <div className="twelve columns">
-                  <h3>{education.school}</h3>
-                  <p className="info">{education.degree} <span>&bull;</span> <em className="date">{education.graduated}</em></p>
-                  <p>{education.description}</p>
-               </div>
-            </div>
-          );
-        });
-
         var work = this.props.data.work.map(function(work){
           return (
             <div key={work.company} className="row item">
@@ -28,6 +16,18 @@ var Resume = React.createClass({
                     <li className = "details-format">{work.workdetail2}</li>
                     <li className = "details-format">{work.workdetail3}</li>
                   </ul>
+               </div>
+            </div>
+          );
+        });
+
+        var education = this.props.data.education.map(function(education){
+          return (
+            <div key={education.school} className="row item">
+               <div className="twelve columns">
+                  <h3>{education.school}</h3>
+                  <p className="info">{education.degree} <span>&bull;</span> <em className="date">{education.graduated}</em></p>
+                  <p>{education.description}</p>
                </div>
             </div>
           );
@@ -83,16 +83,6 @@ var Resume = React.createClass({
 
       return (
         <section id="resume">
-        <div className="row education">
-           <div className="three columns header-col">
-              <h1><span>Education</span></h1>
-           </div>
-
-           <div className="nine columns main-col">
-              {education}
-           </div>
-        </div>
-
         <div className="row work">
            <div className="three columns header-col">
               <h1><span>Work</span></h1>
@@ -100,6 +90,16 @@ var Resume = React.createClass({
 
            <div className="nine columns main-col">
             {work}
+           </div>
+        </div>
+
+        <div className="row education">
+           <div className="three columns header-col">
+              <h1><span>Education</span></h1>
+           </div>
+
+           <div className="nine columns main-col">
+              {education}
            </div>
         </div>
 

@@ -35,7 +35,7 @@
       {
         "school":"National University of Singapore",
         "degree":"Post-Graduate Diploma in System Analysis (SA42)",
-        "graduated":"2016 - Present",
+        "graduated":"2016 - 2017",
         "description":"The Graduate Diploma in Systems Analysis programme (GDipSA) is designed for non-IT graduates intending to craft a new career path in the IT industry."
       },
       {
@@ -46,6 +46,15 @@
       }
     ],
     "work":[
+      {
+        "company":"NCS",
+        "title":"Consultant",
+        "years":"April 2017 - Present",
+        "description":"Analyse process/ program specifications & translate specifications to program code, conforming to program guidelines and programming best practices.",
+        "workdetail1":"Develop unit test package, execute tests & document test results",
+        "workdetail2":"Assist in the integration testing, system testing, investigate all errors, maintain documentation",
+        "workdetail3":"Work with team to ensure design and programmme codes to architecture and design standards"
+      },
       {
         "company":"Island Peak Tech",
         "title":"Software Developer Internship",
